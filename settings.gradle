@@ -2,4 +2,5 @@ rootProject.name = 'My-APP'
 include 'Vertx-App'
 include 'Spring-App'
 include 'Test-App'
+include 'Common-APP'
 

@@ -5,14 +5,9 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 
 public class VertxApplication {
-
-
     public static void main(String[] args) {
         Vertx  vertx =Vertx.vertx();
-
         DeploymentOptions  deploymentOptions  = new DeploymentOptions();
-
-
         vertx.deployVerticle(new MainVerticle(),deploymentOptions,resp -> {
 
                 if(resp.succeeded())
